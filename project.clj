@@ -4,10 +4,10 @@
   :url "https://github.com/JulianBirch/cljs-ajax"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[cheshire "5.5.0"]
+  :dependencies [[cheshire "5.6.1"]
                  [com.cemerick/clojurescript.test "0.3.3" :scope "test"]
                  [com.cognitect/transit-clj "0.8.285"]
-                 [com.cognitect/transit-cljs "0.8.232"]
+                 [com.cognitect/transit-cljs "0.8.237"]
                  [net.colourcoding/poppea "0.2.1"]
                  [org.apache.httpcomponents/httpasyncclient "4.1.1"]
                  [org.apache.httpcomponents/httpcore "4.4.4"]
@@ -23,13 +23,13 @@
          :test-paths ["test"]
          :dependencies [[org.clojure/core.async "0.2.374"]
                         [clj-time "0.11.0"]
-                        [compojure "1.4.0"]
+                        [compojure "1.5.0"]
                         [fogus/ring-edn "0.3.0"]
                         [http-kit "2.1.19"]
-                        [org.clojure/tools.namespace "0.2.10"]
+                        [org.clojure/tools.namespace "0.2.11"]
                         [ring-server "0.4.0"]
                         [ring-transit "0.1.4"]
-                        [ring/ring-defaults "0.1.5"]
+                        [ring/ring-defaults "0.2.0"]
                         [ring/ring-json "0.4.0"]]}}
   :cljsbuild
   {:builds
